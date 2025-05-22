@@ -1,13 +1,13 @@
 import Piku from "./Piku.jsx";
 
 function App() {
+  const username = "i am learing react by myself";
   return (
     <>
-      <Piku/>
-      <h1>just trying out things
-      </h1>
+      <Piku />
+      <h1>{username}</h1>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
