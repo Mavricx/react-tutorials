@@ -1,0 +1,1 @@
+To learn more about how the Virtual DOM (legacy) and React Fiber work, see the [React Fiber Architecture article](https://github.com/acdlite/react-fiber-architecture).
