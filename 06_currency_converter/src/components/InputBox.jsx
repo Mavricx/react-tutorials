@@ -3,9 +3,9 @@ function InputBox({
   label,
   amount,
   onAmountChange,
-  onCurrencyChange,
-  currencyOptions = [],
   selectCurrency = "usd",
+  onCurrencyChange,
+  currencyOptions = [], 
   amountDisabled = false,
   currencyDisabled = false,
   className = "",
@@ -46,7 +46,7 @@ function InputBox({
             </option>
           ))}
         </select>
-      </div>
+      </div> 
     </div>
   );
 }
