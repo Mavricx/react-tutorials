@@ -57,3 +57,12 @@ createRoot(document.getElementById("root")).render(
     <RouterProvider router={router} />
   </StrictMode>
 );
+
+// RouterProvider is a component that provides the router to the application.
+// createBrowserRouter is a function that creates a browser router.
+// createRoutesFromElements is a function that creates routes from elements.
+// Layout is a component that renders the layout of the application.
+// Home, About, Contact, User, Github are components that render the respective pages.
+// gitInfoLoader is a loader function that fetches data for the Github component.
+// The router is created with the createBrowserRouter function, which takes an array of route objects.
+// Each route object has a path, an element, and optionally a loader.
